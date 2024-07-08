@@ -1,0 +1,63 @@
+body {
+    font-family: Arial, sans-serif;
+    background-color: #f0f0f0;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    margin: 0;
+}
+
+.container {
+    background-color: #fff;
+    padding: 20px;
+    border-radius: 5px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    width: 400px;
+}
+
+h1, h2 {
+    text-align: center;
+}
+
+form {
+    display: flex;
+    margin-bottom: 10px;
+}
+
+form input[type="text"] {
+    flex: 1;
+    padding: 8px;
+    font-size: 16px;
+    border: 1px solid #ddd;
+    border-radius: 3px 0 0 3px;
+}
+
+form button {
+    padding: 8px 12px;
+    font-size: 16px;
+    border: 1px solid #007bff;
+    border-left: none;
+    border-radius: 0 3px 3px 0;
+    background-color: #007bff;
+    color: #fff;
+    cursor: pointer;
+}
+
+.task-list {
+    list-style-type: none;
+    padding: 0;
+}
+
+.task {
+    padding: 10px;
+    margin-bottom: 5px;
+    border-radius: 3px;
+    background-color: #f9f9f9;
+    border: 1px solid #ddd;
+}
+
+.task.completed {
+    text-decoration: line-through;
+    background-color: #e0e0e0;
+}
